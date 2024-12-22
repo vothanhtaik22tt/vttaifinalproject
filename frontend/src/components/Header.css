@@ -1,0 +1,63 @@
+/* Cấu trúc Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6a0dad; /* Màu tím */
+    color: white;
+    padding: 20px;
+  }
+  
+  /* Tiêu đề */
+  .header h1 {
+    margin: 0;
+    font-size: 2rem; /* Phóng to tiêu đề */
+    font-weight: 600; /* Đậm hơn */
+  }
+  
+  /* Điều hướng trong header */
+  .header nav {
+    display: flex;
+    gap: 20px; /* Tăng khoảng cách giữa các nút */
+  }
+  
+  /* Liên kết trong điều hướng */
+  .header nav a {
+    color: white;
+    font-size: 1.1rem; /* Tăng kích thước chữ */
+    text-decoration: none;
+    padding: 12px 20px; /* Tăng kích thước nút */
+    border-radius: 8px; /* Bo tròn nút hơn */
+    font-weight: 500; /* Đậm chữ để dễ đọc */
+    display: flex;
+    align-items: center; /* Căn giữa nội dung trong nút */
+    justify-content: center;
+    white-space: nowrap; /* Đảm bảo chữ hiển thị trên 1 dòng */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  /* Hiệu ứng hover cho liên kết */
+  .header nav a:hover {
+    background-color: #530c8e; /* Màu tím đậm hơn */
+    transform: translateY(-2px); /* Nhấn mạnh hiệu ứng hover bằng cách di chuyển nút */
+  }
+  
+  /* Nút Logout */
+  .logout-button {
+    padding: 12px 20px; /* Tăng kích thước nút logout */
+    background-color: #512d6d; /* Màu tím đậm */
+    color: white;
+    font-size: 1.1rem; /* Tăng kích thước chữ */
+    border: none;
+    border-radius: 8px; /* Bo tròn nút */
+    cursor: pointer;
+    font-weight: 500; /* Đậm chữ */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  /* Hiệu ứng hover cho nút logout */
+  .logout-button:hover {
+    background-color: #6a0dad; /* Màu tím sáng hơn */
+    transform: translateY(-2px); /* Di chuyển nhẹ lên khi hover */
+  }
+  
